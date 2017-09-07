@@ -101,6 +101,7 @@ body{
     text-align: center;
     padding: 2%;
     font-size: 1.4vmax;
+    cursor: pointer;
 }
 
 .form-box {
