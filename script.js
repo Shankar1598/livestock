@@ -1,3 +1,3 @@
 function login(){
-    window.location = "login.html";
+    window.location = "home.html";
 }
