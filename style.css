@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Bad+Script|Roboto');
+body{
+    margin: 0;
+    font-family: "Bad Script";
+    background: #d5d5d5;
+    font-weight: 500;
+}
+.navbar{
+	width: 100%;
+	background-color: #1960bf;
+    box-shadow: 0px 1px 2px 0px black;
+    margin: 0;
+    max-height: 10vh;
+    color: aliceblue;
+    text-align: center;
+    padding: 1vh 0%;
+    font-size: 1.6vmax;
+}
+.entry-box{
+    background: #1960bf;
+}
+
+.login-content{
+	width: 100%;
+    box-sizing: border-box;
+ }
+
+.login-content input, .form-content input, .form-content select{
+	float: right;
+    border-radius: 3px;
+    border: 1px solid #1960bf;
+    font-family: "Roboto";
+    height: 4vh;
+    width: 60%;
+    margin-left: 3vw;
+    font-size: 1.1vmax;
+}
+
+.form-content input{
+    text-align: center;
+}
+
+.login-content label,.form-content label{
+	float: left;
+    margin-top: .5vw;
+}
+.login-box .form-group:last-child {
+    margin-bottom: 0;
+}
+
+.container-fluid {
+    position: relative;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    width: 100%;
+}
+
+.login-box {
+    width: 90%;
+    color: aliceblue;
+    font-size: 2.9vmax;
+}
+
+@media screen and (min-width: 750px) {
+    .login-box {
+        width: 40%;
+        color: aliceblue;
+        font-size: 1.2vmax;
+    }
+}
+
+.entry-box input {
+    
+}
+
+.entry-box label {
+    align-content: center;
+    vertical-align: middle;
+}
+
+.login-box .form-group {
+    box-sizing: border-box;
+    padding: 4% 6%;
+    width: 100%;
+}
+
+.unfloat {
+    clear: both;
+}
+
+
+
+.login-btn {
+    margin-top: 2%;
+    background: #1960bf;
+    box-shadow:  0px 1px 2px 0px black;
+    text-align: center;
+    padding: 2%;
+    font-size: 1.4vmax;
+}
+
+.form-box {
+    width: 85%;
+    color: aliceblue;
+    font-size: 1.1vmax;
+	border: 1px solid #1960bf;
+    background: #1960bf;
+    box-shadow: 0px 1px 2px 0px black;
+    display: flex;
+    padding: 2%;
+    align-items: center;
+}
+
+.container-form {
+    position: relative;
+    top: 5vh;
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 90vh;
+    margin: 0;
+    width: 100%;
+}
+
+.form-content {
+	width: 100%;
+    box-sizing: border-box;
+}
+
+.form-content .form-group {
+    padding: 2%;
+}
+
+
+
+.form-left {
+    width: 50%;
+}
+
+.form-right {
+    width: 50%;
+}
+
+.form-right label {
+    position: relative;
+    left: 2%;
+}
+
+.form-left input, .form-left select {
+    position: relative;
+    right: 2%;
+}
+
+.form-group {
+    
+}
+
+.back-btn, .locate-btn {
+    margin-top: 2%;
+    background: #1960bf;
+    box-shadow: 0px 1px 2px 0px black;
+    width: 10%;
+    text-align: center;
+    padding: .5%;
+    font-size: 1.4vmax;
+    cursor: pointer;
+}
+
+.action-box {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 80%;
+    color: aliceblue;
+}
+
+.back-btn {
+    float: left;
+}
+
+.locate-btn {
+    float: right;
+}
